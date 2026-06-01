@@ -1,0 +1,37 @@
+# Ecms = 13000
+# ibeam1 = 1 (1=proton,-1=antiproton)
+# ibeam2 = 1 (1=proton,-1=antiproton)
+# PDF = CT18NLO
+# Scale option = -1 (-1=Fixed scale, 1,2,3,...=Dynamic)
+# mu0 = 125 (used if Scale option = -1 above)
+# mur_var = 1 (muR multiplicative factor)
+# muf_var = 1 (muF multiplicative factor)
+# ALPHAS(for fixed scale) = 0
+# proc = Hbb
+# correction = RV
+# calculation type = L (0=nf part of massless calculation, L=log part, M=fully massive)
+# hvq_id = 5 (1=down-type, 2=up-type, 4=charm, 5=bottom, 6=top)
+# hvq_n = 2 (number of final state heavy-quarks)
+# mQ = 3 (dynamic massive quark mass)
+# nf_max pdf = 4 (max number of flavours considered in pdfs)
+# nf_max as = 4 (max number of flavours considered in as)
+# nf_var = 4 (nf variable used to dynamically compute b0[nf], b1[nf] terms)
+# pTH_low pTH_high sigma[pb] dsigma[pb]
+0	20	0.0	0.0
+20	40	0.0918168505	2.61406e-05
+40	60	0.0284115811	8.7341e-06
+60	80	0.0113951831	3.8946e-06
+80	100	0.0052659428	1.8836e-06
+100	120	0.002661317	9.813e-07
+120	140	0.0014326794	5.518e-07
+140	160	0.0008095239	3.143e-07
+160	180	0.0004762286	1.915e-07
+180	200	0.0002897996	1.157e-07
+200	220	0.0001819889	7.58e-08
+220	240	0.0001172112	4.91e-08
+240	260	7.7271e-05	3.22e-08
+260	280	5.20543e-05	2.25e-08
+280	300	3.57238e-05	1.52e-08
+300	320	2.49496e-05	1.11e-08
+320	340	1.76972e-05	8.1e-09
+# Time for computation: 610s
